@@ -1,0 +1,606 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html body {font-family: 'Montserrat', sans-serif; font-weight: 300; font-style: normal;}
+b, strong, b i, i b, strong em, em strong, b em, em b {font-weight: 700 !important;}
+body h1 {font-weight: 900;}
+body h2 {font-weight: 700;}
+a {text-decoration:none}
+a:hover {text-decoration:none}
+.container-fluid {margin-top:0 !important;padding-top:0 !important;margin-bottom:0 !important;padding-bottom:0 !important}
+.jumbotron {margin-top:0 !important;margin-bottom:0 !important; border-radius: 0 !important;}
+
+#nav {gap:1%; height: 120px;}
+#nav a {color:#1B699E;font-weight:700;text-transform:uppercase;white-space:nowrap;margin-bottom:18px;text-decoration:none;}
+#nav a.navbar-brand {margin-bottom: 10px;}
+#nav a.navbar-brand img {max-height: 110px; width: auto;}
+#nav a:hover {color:#FFB16B;text-decoration:none;}
+#nav img {max-height:120px;padding:20px}
+#nav .navbar-nav .nav-item {font-size: 18px; margin: 0 .7rem;}
+#nav .navbar-nav .nav-item:last-child {margin-right: 0;}
+
+.navbar-toggler-icon {color:#2e6cef}
+#collapsibleNavbar {align-self:flex-end;justify-self:end;}
+#logo {display:flex;align-items:end}
+
+#map .jumbotron {padding:0;overflow:hidden; background-color: #ffffff;}
+#map iframe {min-height: 500px;}
+#schedule p, #schedule h1, #schedule a, #schedule .row {margin:0 12px;color:#004880}
+#schedule .headline p {text-transform: uppercase; font-weight: 700; margin-bottom: 10px; margin-top: 2rem; font-size: 40px;}
+#schedule p.address {font-weight: 600; font-size: 18px; margin-bottom: 0.3em;}
+#schedule a.directions {font-weight: 600; margin-top: 0.3em; font-size: 14px; color: #2E6CEF;}
+#schedule a.directions:hover {color: #004880;}
+#schedule .row {border-top:solid black 0.1vw; margin-top: 2.5rem; padding-top: 1rem;}
+#schedule .row .column {padding-left: 0;}
+#schedule h4 {font-size: 20px; font-weight: 700; letter-spacing: 0.04em; margin-bottom: 10px; margin-top: 22px;}
+#schedule #sched-container .row .column p {font-weight: 500; margin-bottom: 8px;}
+#sched-container {background:white;padding:12px}
+#sched-container .plan-button-holder {margin:3rem 0;}
+#sched-container .plan-button .solid {border:solid #2E6CEF 0.2vw;background:#2E6CEF;color:white;padding:2% 12% 2% 12%;border-radius:100px;font-weight:600;white-space:nowrap;width:100%;margin-bottom: 10px;font-size: 18px;}
+#sched-container .plan-button .transparent {border:solid #2E6CEF 0.2vw;background:none;color:#2E6CEF;padding:2% 12% 2% 12%;border-radius:100px;font-weight:600;white-space:nowrap;width:100%;margin-bottom: 10px;font-size: 18px;}
+#sched-container .plan-button .transparent:hover, #sched-container .plan-button .solid:hover {background:#0B47C7;color:white;text-decoration:none;}
+
+#footer {background:#022340;padding:60px 30px 0px;}
+#footer h2, #footer h4, #footer a, #footer p, #footer div {color:white}
+#footer h4 {font-weight: 700; font-size: 20px;}
+#footer h2 {font-weight:900; font-size: 24px; margin-bottom: 20px;}
+#footer p {font-weight: 500; margin-bottom: 15px;}
+#footer .address-block a#directions {color: #2E6CEF; font-weight: 500; font-size: 15px;}
+#footer .address-block a#directions:hover {color: #2E6CEF; text-decoration: underline;}
+#footer .address-block #footer-buttons {margin-top: 30px;}
+#footer .address-block #footer-buttons a {display: block; margin-bottom: 15px;}
+#footer .col-xs-12 {margin-bottom: 28px;}
+#footer .disclaimer {border-top:solid white 0.1vw;margin-top:50px; padding-top: 30px; font-weight: 300;}
+#footer .copyright {font-weight: 300; font-size: 12px; margin-top: 2rem;}
+#footer .solid {border:solid #2E6CEF 0.2vw;background:#2E6CEF;color:white;padding:12px 24px;border-radius:100px;font-weight:700;white-space:nowrap;width:240px;margin:9px 0}
+#footer .solid:hover {background:white;color:#2E6CEF;border:solid white 0.2vw;text-decoration:none;}
+#footer .transparent {border:solid white 0.2vw;color:white;padding:12px 24px;border-radius:100px;font-weight:700;white-space:nowrap;width:240px; margin:9px 0}
+#footer .transparent:hover {background:white;color:#2E6CEF;border:solid white 0.2vw;text-decoration:none;}
+#footer .copyright .footer-notices b {font-weight: 300 !important;}
+#footer .copyright .sitemap {display: none;}
+
+.article {padding:48px 32px; font-size: 20px; line-height: 32px;}
+.article h1 {color:#004880;}
+#about-us .article {background:#fff;}
+
+#about img {max-width:100%; border-radius: 15px !important;}
+#about .img-frame {padding:12px}
+#about-text {padding:24px}
+#about a {font-size:1.25rem;white-space:nowrap;margin-top:36px;margin-right:12px}
+#about a.more-about {text-decoration:underline; font-size: 1rem; font-weight: 600; font-size: 1.1rem;}
+#about a.solid {border:solid #1B699E 0.2vw;background:#1B699E;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700;}
+#about a.solid:hover {background:#388DC5;}
+a.transparent {border:solid #1B699E 0.2vw;color:#1B699E;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700}
+a.transparent:hover {background:#388DC5;color:white}
+#about-links a:hover {text-decoration:none;}
+#about {margin:0 8px 2.4rem;}
+
+body #about h1 {font-weight: 800; margin-bottom: 1rem; font-size: 44px;}
+#about ul, .article ul {margin: 0; list-style-type: none; list-style-position: inside; padding-left: 11px; margin-top: 1.3rem; margin-bottom: 1.5rem;}
+#about ul > li, .article ul > li {text-indent: -11px; padding-left: 0; margin-left: 0;}
+#about ul >li:before, .article ul > li:before {content: "- "; text-indent: -5px; font-weight: 600;}
+
+#article h1 {color:#004880}
+#article p {columns:2}
+#article {background:#f2f5f7;padding:24px}
+.ministry {padding:24px}
+
+.jumbotron.blue {background:#004880}
+.jumbotron.blue .header h1 {font-size: 72px;}
+.jumbotron.blue h1 {font-weight:900;color:white;text-align:center;}
+.jumbotron.blue p {color:white;font-weight:600;margin:36px 0; font-size: 1.25rem; text-align: center;}
+#beliefs-links {gap:12px}
+#beliefs-links a:hover {text-decoration:none;}
+.jumbotron.blue a {width:500px;font-size:x-large;white-space:nowrap;}
+.jumbotron.blue .transparent {border:solid white 0.2vw;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700}
+.jumbotron.blue .transparent:hover {background:white;color:#2E6CEF}
+
+.jumbotron.yellow .header h1, .jumbotron.yellow .header p {font-weight:900;color:#004880;font-size: 72px; margin: 0;}
+.jumbotron.yellow p {color:#004880;font-weight:600;margin:36px 0; font-size: 1.25rem;}
+.jumbotron.yellow .links {gap:30}
+.jumbotron.yellow .links a:hover {text-decoration:none;}
+.jumbotron.yellow a {width:600px;font-size:1.2rem;white-space:nowrap;}
+.jumbotron.yellow .solid {border:solid #004880 0.2vw;background:#004880;color:white;padding:5% 12% 5% 12%;border-radius:100px;font-weight:700}
+.jumbotron.yellow .transparent {border:solid #004880 0.2vw;color:#004880;padding:5% 12% 5% 12%;border-radius:100px;font-weight:700}
+.jumbotron.yellow .transparent:hover, #prayer .solid:hover {background:#2678B7;color:white;}
+
+#connect .header {font-weight:900; color: #5486E1; text-shadow:-2px -2px 0 white, 2px -2px 0 white,-2px 2px 0 white,2px 2px 0 white; text-transform:uppercase; font-size: 72px; letter-spacing: 0.03em;}
+@supports(-webkit-text-stroke: 2px white) {
+  #connect .header {color: transparent; -webkit-text-stroke: 2px white; text-shadow: none;}
+}
+#connect .header h1 {font-size: 72px;}
+#connect p {color:white;font-weight:600;margin:36px 0; font-size: 1.25rem;}
+#connect-links {gap:30px;}
+#connect-links a:hover {text-decoration:none;}
+#connect a {width:600px;font-size:1.2rem;white-space:nowrap;}
+#connect .solid {border:solid #2E6CEF 0.2vw;background:#2E6CEF;color:white;padding:5% 12% 5% 12%;border-radius:100px;font-weight:700;}
+#connect .solid:hover {background:white;color:#2E6CEF;border:solid white 0.2vw;}
+#connect .transparent {border:solid white 0.2vw;color:white;padding:5% 12% 5% 12%;border-radius:100px;font-weight:700}
+#connect .transparent:hover {background:white;color:#5486E1}
+
+#ft-img-container-dbl {overflow:hidden;min-height:500px;display:flex;gap:24px;flex-wrap:wrap;z-index:999;margin-top:50px;}
+.bg-4 .solid {border:solid #2E6CEF 0.2vw;background:#2E6CEF;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700;white-space:nowrap;width:90%;}
+.bg-4 .solid:hover {background:white;color:#2E6CEF;border:solid #2E6CEF 0.2vw;text-decoration:none;}
+.ft-img-container-2 {overflow:hidden;position:absolute;z-index:9999;padding:0;}
+.ft-img-container-2 h1 {font-weight:700;}
+#featured-image-2 {padding:0;width:100%}
+.bg-3 {
+    overflow:visible !important;
+    height:50vh;
+    width:100%;
+    background: rgb(46,108,239);
+    background: linear-gradient(90deg, rgba(46,108,239,0.14609593837535018) 35%, rgba(242,245,247,1) 35%);
+  }
+.bg-3 img {width:100%}
+.bg-4 {
+  height:50vh;
+  width:100%;
+  background: rgb(242,245,247);
+  background: linear-gradient(90deg, rgba(242,245,247,1) 65%, rgba(255,177,107,0.15449929971988796) 65%);
+  padding-bottom:24px
+}
+
+
+.navy {background:#2E6CEF;}
+.spotlight img {height: 100%; width:100%;  object-fit: cover; object-position: 50% 10%;}
+.spotlight.justify-content-end img {object-position: 10% 10%;}
+.spotlight {min-height:700px;position:relative;padding:0;overflow:hidden;}
+.spotlight .sub-img-container {padding:0;}
+.img-right {margin-left:50%}
+.floating-panel {position:absolute !important;height:600px;background:white;padding:20px 30px !important;z-index:999;top:8%;box-shadow:0 0 15px 0 rgba(0,0,0,0.25);}
+.panel-right {height:600px;left:45%}
+.panel-left {right:45%;}
+.spotlight h2 {color:#2E6CEF;text-transform:uppercase;font-weight:700;font-size: 24px;}
+.spotlight h1 {color:#004880;font-weight:700; margin-bottom: 0.5em;}
+
+#giving .header h1 {font-weight:900;text-transform:uppercase;color:white; font-size: 80px;letter-spacing: 0.02em;}
+#giving p {color:white;font-weight:600;margin:36px 0; font-size: 1.25rem;}
+#giving-links {gap:30px}
+#giving-links a:hover {text-decoration:none;}
+#giving a {width:600px;font-size:1.2rem;white-space:nowrap;}
+#giving .solid {border:solid #2E6CEF 0.2vw;background:#2E6CEF;color:white;padding:5% 12% 5% 12%;border-radius:100px;font-weight:700;}
+#giving .solid:hover {background:white;color:#2E6CEF;border:solid white 0.2vw;}
+#giving .transparent {border:solid white 0.2vw;color:white;padding:5% 12% 5% 12%;border-radius:100px;font-weight:700}
+#giving .transparent:hover {background:white;color:#5486E1}
+
+#header .display-3 p {font-weight:900;color:white;text-shadow:2px 2px 5px black;font-size:inherit; margin-top: 4rem;}
+#header p {font-weight:700;color:white;font-size:xx-large;width:70%;margin-bottom:4rem;text-shadow:2px 2px 5px black;}
+#header a {font-size:x-large;white-space:nowrap;margin-bottom:12px;margin-right:36px;}
+#header a:hover {text-decoration:none;}
+#header .solid {border:solid #2E6CEF 0.2vw;background:#2E6CEF;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700;}
+#header .solid:hover {background:white;color:#2E6CEF;border:solid white 0.2vw;}
+#header .transparent {border:solid white 0.2vw;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700}
+#header .transparent:hover {background:white;color:#2E6CEF}
+#header-links {padding-left:12px}
+
+#other-header .display-3 h1 {font-weight:900;color:white;text-shadow:2px 2px 5px black;font-size:inherit;font-size: 72px; margin-bottom: 0;}
+div.lead {font-size: 28px; font-weight: 500; margin-bottom: 1.2rem; line-height: 40px;}
+
+#events {border-bottom: 1px solid #979797; padding-bottom: 20px;margin-bottom: 30px;}
+.section-header {padding: 35px 10px 0;}
+.section-header .headline p, .section-header .headline h1 {font-size: 28px; font-weight: 700;}
+.section-header a {font-weight:600;color:#2E6CEF; font-size: 20px;}
+.event-card {
+  padding: 10px 0px;
+}
+
+.event-card .calendar {
+  margin: .25em 10px 10px 0;
+  padding-top: 5px;
+  float: left;
+  width: 100%;
+  height: 220px;
+  background: #F2F5F7;
+  text-align: center;
+  color: #1B699E;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  position: relative;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2em;
+  padding: 50px 15px 0;
+}
+
+.event-card .calendar .bottom {
+  display: block;
+  color: #fff;
+  background: #1B699E;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top: 1px solid #00365a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.event-card .calendar .spiral {
+  position: absolute;
+  top: 5px;
+}
+
+.event-card .calendar .spiral.first {
+  position: absolute;
+  left: 10%;
+}
+
+.event-card .calendar .spiral.second {
+  position: absolute;
+  left: 37%;
+}
+
+.event-card .calendar .spiral.third {
+  position: absolute;
+  right: 37%;
+}
+
+.event-card .calendar .spiral.fourth {
+  position: absolute;
+  right: 10%;
+}
+
+.event-card .calendar .spiral:before {
+  content: '';
+  float: left;
+  position: absolute;
+  top: 1px;
+  width: 10px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 1px 1px #fff;
+  -webkit-box-shadow: 0 1px 1px #fff;
+  box-shadow: 0 1px 1px #fff;
+}
+
+.event-card .calendar:before {
+  left: 33px;
+}
+
+.event-card .calendar:after {
+  right: 33px;
+}
+
+.event-card .calendar .spiral:after {
+  content: '';
+  float: left;
+  position: absolute;
+  left: 2px;
+  top: -12px;
+  width: 6px;
+  height: 21px;
+  background: #424B5A;
+  z-index: 2;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.event-card .calendar em:before {
+  left: 35px;
+}
+
+.event-card .calendar em:after {
+  right: 35px;
+}
+
+#media {margin-bottom: 30px;}
+#media-all {font-weight:600;color:#2E6CEF}
+#media h1:nth-child(n+2), #media h2 {color:#1B699E}
+#media .solid {border:solid #2E6CEF 0.2vw;background:#2E6CEF;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700;}
+#media .solid:hover {background:white;color:#2E6CEF;border:solid #2E6CEF 0.2vw;}
+#sermons-header {height:540px;background:#2E6CEF;color:white;padding:12px}
+#video-frame {background:black;border-radius:20px;margin-left:12px;}
+#video-search {background:#1B699E;padding:24px}
+#searchBox {border:solid white 0.2vw;border-radius:100px;background:#1B699E;color:white}
+#searchBox:focus {outline:0 !important;}
+#searchBox::placeholder {color:white;}
+
+#ministries-header .headline p {font-weight:900;color:white;text-shadow:2px 2px 5px black;}
+#ministries-header p {font-weight:700;color:white;font-size:xx-large;width:70%;margin-bottom:4%;text-shadow:2px 2px 5px black;}
+#ministries-header a {font-size:x-large;white-space:nowrap;margin-bottom:12px;margin-right:36px;}
+#ministries-header a:hover {text-decoration:none;}
+#ministries-header .solid {border:solid #2E6CEF 0.2vw;background:#2E6CEF;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700;}
+#ministries-header .solid:hover {background:white;color:#2E6CEF;border:solid white 0.2vw;}
+#ministries-header .transparent {border:solid white 0.2vw;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700}
+#ministries-header .transparent:hover {background:white;color:#2E6CEF}
+
+#min-all {font-weight:600;color:#2E6CEF}
+#ministries {margin-bottom: 30px;}
+.full img {max-width:300px;}
+.full {padding:0 !important;margin:24px;box-shadow: 5px 5px 5px darkgray;}
+.full a {width:250px}
+.full a:hover {text-decoration:none;}
+.cws-cards {margin-top: 1rem;}
+.cws-cards .card {padding: 10px; border: none; padding-bottom: 70px; position: relative;}
+.cws-cards .card .card-body {padding: 0;}
+.cws-cards .card-body .card-title {font-weight: 700; font-size: 28px; color: #004880; margin-top: 22px; margin-bottom: 14px;}
+.cws-cards .card-body .card-text {font-size: 14px;}
+.cws-cards .card-body a.card-link {position: absolute; width: calc(100% - 20px); bottom: 0; font-size: 18px; font-weight: 600; padding: 10px 15px; color: #2E6CEF; border-color: #2E6CEF;}
+.cws-cards .card-body a.card-link:hover {background-color: #2E6CEF; color: white;}
+
+.mission h1 {font-weight: 900; color: white; margin-bottom: 1em;}
+.mission h2 {color: #FFB16B; text-transform: uppercase; font-weight: 800; font-size: 30px; margin-bottom: 1em;}
+.mission h3 {color: #FFB16B; font-weight: 800; font-size: 30px; margin-top: 1.4em;}
+.mission p {font-weight: inherit; font-size: 20px; line-height: 30px; color: white;}
+.mission {padding:50px 0; background-color: #004880; text-align: center;}
+
+.row.white-block {padding:50px 0; background-color: white; text-align: center;}
+.row.white-block h1 {font-weight: 900; color: #004880; margin-bottom: 1em;}
+.row.white-block h2 {color: #2e6cef; text-transform: uppercase; font-weight: 800; font-size: 30px; margin-bottom: 1em;}
+.row.white-block p {font-weight: inherit; font-size: 20px; line-height: 30px;}
+
+#prayer .header h1, #prayer .header p {font-weight:900;color:#004880;text-transform:uppercase; font-size: 72px; margin: 0;}
+#prayer .header .thin {font-weight: 200;}
+#prayer p {color:#004880;font-weight:600;margin:36px 0; font-size: 1.25rem;}
+#prayer-links {gap:30}
+#prayer-links a:hover {text-decoration:none;}
+#prayer a {width:600px;font-size:1.2rem;white-space:nowrap;}
+#prayer .solid {border:solid #004880 0.2vw;background:#004880;color:white;padding:5% 12% 5% 12%;border-radius:100px;font-weight:700}
+#prayer .transparent {border:solid #004880 0.2vw;color:#004880;padding:5% 12% 5% 12%;border-radius:100px;font-weight:700}
+#prayer .transparent:hover, #prayer .solid:hover {background:#2678B7;color:white;}
+
+#quiz .jumbotron {background:#1b699e;text-align:center}
+#quiz h1 {font-weight:900;text-shadow:-1px -1px 0 white, 1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;text-transform:uppercase}
+#quiz p {color:white;font-weight:600;margin:36px 0}
+#quiz-links {gap:12px;}
+#quiz-links a:hover {text-decoration:none;}
+#quiz a {width:500px;font-size:x-large;white-space:nowrap;}
+#quiz .transparent {border:solid white 0.2vw;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700}
+#quiz .transparent:hover {background:white;color:#2E6CEF}
+
+#schedule-full .jumbotron {background:white}
+#schedule-full h1 {font-weight:900;color:#004880;text-align:center;}
+#schedule-full p {color:#004880;font-weight:600;margin:36px 0}
+#schedule-full-links {border:none !important}
+#schedule-full-links a:hover {text-decoration:none;}
+#schedule-full a {width:500px;font-size:x-large;white-space:nowrap;color:#004880 !important}
+#schedule-full .transparent {border:solid #004880 0.2vw;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700}
+#schedule-full .transparent:hover {background:#004880;color:white !important}
+#schedule-full h2 {color:#004880 }
+
+#start-header-text {background:#f2f5f7; padding: 15px 40px; width: 100%;}
+#start-header-text .header h1, #start-header-text .header p {color:#004880;font-weight:900; margin-bottom: 1.2rem; font-size: 40px; line-height: 1.2;}
+#start-header {margin:0 -15px;padding:0;}
+#start-header-image {overflow:hidden; max-height: 350px; padding: 0;}
+#start-header-image img {width: 100%; height: 100%; object-fit: cover; object-position: 50% 10%;}
+#start-header-text .solid a {border:solid #2E6CEF 0.2vw;background:#2E6CEF;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700;}
+#start-header-text .solid a:hover {background:white;color:#2E6CEF;border:solid #2E6CEF 0.2vw;}
+#start-header .solid {border:solid #2E6CEF 0.2vw;background:#2E6CEF;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700;white-space:nowrap;margin:6px 0}
+#start-header .solid:hover {background:white;color:#2E6CEF;border:solid #2E6CEF 0.2vw;text-decoration:none;}
+
+#ministries .solid {border:solid #2E6CEF 0.2vw;background:#2E6CEF;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700;}
+#ministries .solid:hover {background:white;color:#2E6CEF;border:solid #2E6CEF 0.2vw;}
+.min-all {border:solid #2E6CEF 0.2vw;background:#2E6CEF;color:white;padding:1% 6% 1% 6%;border-radius:100px;font-weight:700;white-space:nowrap;width:90%;margin:12px}
+.min-all:hover {background:white;color:#2E6CEF;border:solid #2E6CEF 0.2vw;text-decoration:none;}
+
+#plan-visit {background:#2e6cef;padding:24px}
+#plan-visit h1  {font-weight:900;color:white;}
+#plan-visit .h6 {font-weight:700;color:white}
+
+#plan-visit h1, #plan-visit h2 {text-transform:uppercase;}
+#plan-visit h1  {font-weight:700;color:#2E6CEF;letter-spacing:2px;}
+#plan-visit h2 {font-weight:900;color:#004880}
+
+#staff {padding: 64px 32px; background-color: #F2F5F7;}
+#staff .header {text-align: center;}
+#staff .header h1 {font-weight:900;color:#004880; margin-bottom: 3rem; font-size: 60px;}
+#staff .header h2 {font-weight:700;color:#2E6CEF;letter-spacing:0px; margin-bottom: 1.3rem;text-transform:uppercase;}
+
+.staff-card {padding: 15px 30px !important;}
+.staff-card img {width: 100%; height: auto; margin-bottom: 1rem; box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 0px;}
+.staff-card h1 {font-size: 40px; font-weight: 700;}
+.staff-card h2 {font-size: 22px; color: #2e6cef; text-transform: uppercase;}
+.staff-card a {font-weight: 500;}
+
+#feat-event {
+  height:90%; background:url('../img/worship_service.jpg') center;
+   background-size:cover;
+   border-radius:10px;
+   filter: drop-shadow(0 0 0.75rem lightgray);
+ }
+ #events-header {
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   height:895px;
+ }
+ #feat-event-info {
+   position:absolute;
+   z-index:9999;
+   display:flex;
+   height:100%;
+   width:100%;
+   justify-content:space-between;
+   flex-wrap:wrap;
+   left:0;
+ }
+ .date-badge {
+    width: 293px;
+    height: 251px;
+    border-radius: 25px;
+    background-color: #0f1e5a;
+    padding: 0 !important;
+    margin-top: 15%;
+    /* background-image: linear-gradient(#837CB9ed, #F08279); */
+    /* background-image: url('../img/bg.jpg'); */
+    background-position: center;
+    /* transform: rotate(-45deg); */
+    animation: swing ease-in-out 1s infinite alternate; }
+ @keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+ .logo{
+    margin-top: 10px;
+    width: 264px;
+    height: 155px;
+ }
+ .info {
+    
+    width: 929px;
+    height: 480px;
+    background: white;
+    border-radius: 10px;
+    margin: 44px;
+    padding: 27px 30px !important;
+    position: fixed;
+    left: 20%;
+    top: 11%;
+
+ }
+ .info h1 {
+   color:#2e6cef;
+   font-size:20px;
+ }
+ .info h2 {
+   color:#004880;
+   font-size:36px;
+   margin-bottom:36px;
+ }
+ .info h3 {
+   color:#004880;
+   font-size:30px;
+ }
+ .info h4 {
+   color:#3D3D3D;
+   font-size:21px;
+   margin-bottom:36px
+ }
+ .info p {
+   font-size:21px;
+ }
+ .spacer {
+   padding:0 0 24px 150px !important;
+ }
+ #card-container {
+    gap: 12px;
+    margin-bottom: 36px;
+    margin-left: 250px;
+    margin-top: -315px;
+    position: fixed;
+    bottom: -63px;
+ }
+ #card-container > div {
+   border:none;
+   filter: drop-shadow(0 0 0.75rem lightgray);
+ }
+ .event-card-front-full {
+   background:#0f1e5a;
+   color:white;
+ }
+ .date-badge h1, .date-badge h2, .date-badge h3 {
+   color:white;
+ }
+ .date-badge h3 {
+   opacity:60%;
+   font-size:20px;
+   margin-top:12px
+ }
+ .date-badge h4 {
+   color:#2E6CEF;
+   font-weight:900;
+   margin:12px;
+ }
+ .event-card-front-full h1, .date-badge h1, .date-badge h4 {
+   font-size:42px
+ }
+ .event-card-front-full h2, .date-badge h2 {
+   font-size:84px
+ }
+ .weekday {
+   background:white;
+   margin:0;
+   width:100%;
+ }
+ .event-card-back-full .long-date {
+   font-size:14px;
+   color:#2E6CEF;
+   font-weight:700;
+ }
+ .event-card-back-full h2 {
+   font-size:24px;
+   color:#004880;
+   font-weight:900;
+ }
+ .event-card-back-full .card-text {
+   font-size:14px;
+   font-weight:400;
+   margin-bottom:36px;
+ }
+ .event-card-full {
+   /* padding:0 0 36px 0 !important; */
+   border-radius:20px !important;
+   overflow:hidden;
+   
+ }
+ .event-card-full .h5 {
+   margin-bottom:48px;
+ }
+ .event-card-full a, .info a {
+   background:#2e6cef;
+   color:white;
+   padding:12px 64px;
+   border-radius:100px;
+   border:solid #2e6cef 3px;
+   font-weight:700;
+   font-size:17px;
+   white-space: nowrap;
+   width: 37%;
+   margin: 0px 277px;
+ }
+ .event-card-full a:hover, .info a:hover {
+   background:white;
+   border:solid #2e6cef 3px;
+   color:#2e6cef;
+   text-decoration: none;
+ }
+ #footer img {max-width:250px}
+
+@media only screen and (max-width:1200px) {
+    .navy {display:none !important}
+    .floating-panel {position:relative !important;top:0;left:0; height: auto;}
+    .spotlight {display:flex;flex-direction:column;justify-content:space-between;height:auto}
+    .sub-img-container {max-height:600px;justify-content:flex-start !important}
+    .bg-3, .bg-4 {height:auto;background:#f2f5f7}
+    .ft-img-container-2 {position:relative !important}
+    #feat-event-info {position:relative}
+    #events-header {height:auto}
+    .info {height:auto}
+  }
+@media (max-width: 991px) {
+#footer .address-block #footer-buttons a {margin: 15px auto;}
+.spacer {padding:24px !important;}
+#card-container {margin-left:0;}
+}
+@media only screen and (max-width:575px) {
+  #min-all, #events-all {justify-content:flex-start !important;align-items:flex-start !important;}
+  .article {padding: inherit; padding-top: 20px; padding-bottom: 20px;}
+
+}
+.body{
+    height: 500px !important;
+}
+
+
+/* These styles will have dynamic values from the Less system */
+#header .jumbotron {background:linear-gradient(to bottom,rgba(46,108,239,0.4),rgba(27,105,158,0.4)), url("../img/men_bible_study.jpg") no-repeat center;background-size:cover;}
+#giving .jumbotron {background:linear-gradient(to bottom,rgba(46,108,239,0.8),rgba(27,105,158,0.8)), url("../img/children_music.jpg") no-repeat center;background-size:cover;text-align:center}
+#connect .jumbotron {background:linear-gradient(to bottom,rgba(46,108,239,0.8),rgba(27,105,158,0.8)), url("../img/church_group.jpg") no-repeat top center;background-size:cover;text-align:center}
+#ministries-header .jumbotron {background: linear-gradient(to bottom, rgba(46, 108, 239, 0.4), rgba(27, 105, 158, 0.4)), url("../img/men_bible_study.jpg") no-repeat center;  background-size: cover; height: 30vw;}
+#prayer .jumbotron, .jumbotron.yellow {background:linear-gradient(to bottom,rgba(255,177,107,0.85),rgba(255,177,107,0.85)), url("../img/praying_hands.jpg") no-repeat top center;background-size:cover;}
+#other-header .jumbotron {background:linear-gradient(to bottom,rgba(46,108,239,0.4),rgba(27,105,158,0.4)), url("../img/church_group.jpg") no-repeat center;background-size:cover; background-position: 50% 15%;}
